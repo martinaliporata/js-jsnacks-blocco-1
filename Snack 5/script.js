@@ -13,4 +13,7 @@ let number6 = parseInt (prompt('Dimmi un numero'))
 
 if (number1%2 === 1) {
     array.push(number1)
-}    
+    console.log('dispari')
+} else {
+    console.log('no dispari')
+}

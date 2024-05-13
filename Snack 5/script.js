@@ -2,18 +2,13 @@
 //  Chiedi per 6 volte all'utente di inserire un numero,
 //  se è dispari inseriscilo nell'array.
 
-const array = []
+const numbersArray = []
 
-let number1 = parseInt (prompt('Dimmi un numero'))
-let number2 = parseInt (prompt('Dimmi un numero'))
-let number3 = parseInt (prompt('Dimmi un numero'))
-let number4 = parseInt (prompt('Dimmi un numero'))
-let number5 = parseInt (prompt('Dimmi un numero'))
-let number6 = parseInt (prompt('Dimmi un numero'))
-
-if (number1%2 === 1) {
-    array.push(number1)
-    console.log('dispari')
-} else {
-    console.log('no dispari')
+for (let index = 0; index < 6 ; index++) {
+    const userNumber = Number.parseInt(prompt('type a number'), 10);
+    if (userNumber % 2 === 1) {
+        numbersArray.push(userNumber)
+    }
 }
+
+console.log(numbersArray)

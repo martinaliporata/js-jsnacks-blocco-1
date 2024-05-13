@@ -11,4 +11,6 @@ let number4 = parseInt (prompt('Dimmi un numero'))
 let number5 = parseInt (prompt('Dimmi un numero'))
 let number6 = parseInt (prompt('Dimmi un numero'))
 
-if (nu)
+if (number1%2 === 1) {
+    array.push(number1)
+}    

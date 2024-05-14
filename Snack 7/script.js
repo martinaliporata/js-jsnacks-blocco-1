@@ -3,3 +3,7 @@
 
 const N = parseInt(prompt('scrivi un numero'))
 
+for (let i = 0; i > N.lenght; i++) {
+    const prova = [(Math.random() * 100) + 1]
+    console.log(prova)
+}
